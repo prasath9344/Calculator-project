@@ -4,8 +4,8 @@ on:
 workflow_dispatch:
 inputs:
 name:
-description: "Deploy the PrepyAI-API from Dev"
-default: "dev"
+description: "Deploy the Calculator app"
+default: "test"
 
 permissions:
 id-token: write
